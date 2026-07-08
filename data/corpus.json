@@ -1,0 +1,349 @@
+{
+    "saludo": {
+        "descripcion": "Saludar al usuario.",
+        "utterances": [
+            "hola",
+            "hola buenos dias",
+            "buenas tardes",
+            "buenas noches",
+            "hola necesito ayuda",
+            "buen día",
+            "hey",
+            "disculpa"
+        ],
+        "responses": [
+            "¡Hola! Bienvenido al asistente de admisiones de la Universidad de Guayaquil. ¿En qué puedo ayudarte?"
+        ]
+    },
+    "despedida": {
+        "descripcion": "Despedirse del usuario.",
+        "utterances": [
+            "chao",
+            "adios",
+            "hasta luego",
+            "nos vemos",
+            "gracias eso es todo",
+            "ya no necesito nada mas",
+            "hasta pronto",
+            "muchas gracias"
+        ],
+        "responses": [
+            "¡Éxitos en tu proceso de admisión!",
+            "¡Que tengas un excelente día!"
+        ]
+    },
+    "consultar_requisitos": {
+        "descripcion": "Consultar requisitos de admisión.",
+        "utterances": [
+            "qué requisitos necesito",
+            "qué documentos debo presentar",
+            "qué papeles necesito",
+            "cómo puedo inscribirme",
+            "qué necesito para ingresar",
+            "requisitos para la universidad",
+            "que necesito para postular"
+        ],
+        "responses": [
+            "Los requisitos principales son:   título de bachiller debidamente registrado u homologado   cédula de identidad o pasaporte, y    haber completado el Registro Nacional en la plataforma del MINEDUC antes de inscribirte."
+        ]
+    },
+    "consultar_registro_nacional": {
+        "descripcion": "Informar sobre el Registro Nacional en la plataforma del MINEDUC.",
+        "utterances": [
+            "consultar registro nacional",
+            "como hago el registro nacional",
+            "cuando es el registro nacional"
+        ],
+        "responses": [
+            "El Registro Nacional debe completarse del 9 de junio de 2026 al 13 de junio de 2026 en la plataforma del Ministerio de Educación.¡Es un requisito indispensable!Si no lo realizas, no podrás participar en ninguna etapa del proceso de admisión de la UG."
+        ]
+    },
+    "explicar_creacion_cuenta": {
+        "descripcion": "Explicar cómo crear la cuenta en la plataforma de admisiones.",
+        "utterances": [
+            "como creo mi cuenta",
+            "como hago mi cuenta en el sistema de admision",
+            "necesito crear una cuenta",
+            "pasos para crear cuenta",
+            "donde creo mi usuario"
+        ],
+        "responses": [
+            "Debes crear tu cuenta en la plataforma institucional de admisiones de la UG y postular siguiendo el cronograma establecido según el último dígito de tu cédula o pasaporte.Recuerda que antes debes haber completado el Registro Nacional en la plataforma del MINEDUC."
+        ]
+    },
+    "consultar_fechas_inscripcion": {
+        "descripcion": "Consultar fechas de inscripción según el cronograma por cédula/pasaporte.",
+        "utterances": [
+            "cuándo son las inscripciones",
+            "cuándo empieza la inscripcion",
+            "que fecha me toca inscribirme",
+            "fecha de inscripción",
+            "cronograma de inscripcion",
+            "hasta cuándo puedo matricularme",
+            "cuándo empieza la nivelación"
+        ],
+        "responses": [
+            "La inscripción se realiza según el último dígito de tu cédula o pasaporte: dígitos 1-2 el lunes 13 de julio de 2026; dígitos 3-4 el martes 14 de julio de 2026; dígitos 5-6 el miércoles 15 de julio de 2026; dígitos 7-8 el jueves 16 de julio de 2026; dígitos 9-0 el viernes 17 de julio de 2026; todos del sábado a lunes (18 de julio de 2026 al 20 de julio de 2026)."
+        ]
+    },
+    "consultar_cronograma_evaluacion": {
+        "descripcion": "Informar sobre la fecha del examen de admisión.",
+        "utterances": [
+            "cuando es la evaluacion de admision",
+            "fecha del examen de ingreso"
+        ],
+        "responses": [
+            "El cronograma de evaluaciones (fecha, hora y lugar de tu examen) se publica el 17 de agosto de 2026 en tu cuenta del sistema institucional.Las evaluaciones se aplican entre el 1 de septiembre de 2026 y el 25 de septiembre de 2026, según el bloque de conocimiento de tu carrera. El examen representa el 50% del puntaje total de postulación."
+        ]
+    },
+    "explicar_bloques_conocimiento": {
+        "descripcion": "Explicar qué son los bloques de conocimiento y qué materias evalúan.",
+        "utterances": [
+            "que es un bloque de conocimiento",
+            "cuantos bloques hay",
+            "que bloques existen",
+            "explica los bloques de conocimiento",
+            "que materias se evaluan en mi bloque",
+            "que bloque me corresponde"
+        ],
+        "responses": [
+            "Los bloques de conocimiento agrupan carreras afines a un área. El examen de admisión de la UG se organiza en 6 bloques:\nBloque 1 (Ciencia, Tecnología e Ingeniería); Bloque 2 (Ciencias de la Bioindustria y Recursos Naturales); Bloque 3 (Diseño y Creatividad); Bloque 4 (Ciencias Sociales, Educación y Cultura); Bloque 5 (Negocios y Economía Global); Bloque 6 (Ciencias de la Salud Humana)\nSi quieres el detalle de materias de un bloque puntual, indícame su número (por ejemplo: '¿qué materias tiene el bloque 3?')."
+        ]
+    },
+    "consultar_carreras_bloque": {
+        "descripcion": "Consultar qué carreras pertenecen a cada bloque de conocimiento.",
+        "utterances": [
+            "que carreras hay en el bloque ",
+            "carreras del bloque de ",
+            "que carreras pertenecen a cada bloque",
+            "dime las carreras por bloque",
+            "en que bloque esta mi carrera",
+            "que carreras tiene el bloque "
+        ],
+        "responses": [
+            "Las carreras de la UG se agrupan así por bloque de conocimiento:\nBloque 1 (Ciencia, Tecnología e Ingeniería): Arquitectura, Ciencias de Datos e Inteligencia Artificial, Ingeniería Civil, Ingeniería Industrial, Ingeniería Mecatrónica, Sistemas de Información, Ingeniería en Software, Tecnologías de la Información, Telemática; Bloque 2 (Ciencias de la Bioindustria y Recursos Naturales): Agronomía, Agropecuaria, Alimentos, Biología, Geología, Ingeniería Ambiental, Ingeniería de la Producción, Ingeniería Química, Medicina Veterinaria; Bloque 3 (Diseño y Creatividad): Diseño de interiores, Diseño Gráfico; Bloque 4 (Ciencias Sociales, Educación y Cultura): Ciencias Políticas, Comunicación, Derecho, Educación Básica, Educación Inicial, Entrenamiento Deportivo, Gastronomía, Pedagogía de la Actividad Física y Deporte, Pedagogía de la Filosofía, Pedagogía de la Historia y Ciencias Sociales, Pedagogía de la Informática, Pedagogía de la Lengua y Literatura, Pedagogía de Matemáticas y Física, Pedagogía de Química y Biología, Pedagogía de las Artes, Pedagogía del Idioma Inglés, Psicología Educativa, Publicidad, Sociología; Bloque 5 (Negocios y Economía Global): Administración de Empresas, Comercio Exterior, Contabilidad y Auditoría, Economía, Economía Internacional, Finanzas, Gestión de la Información Gerencial, Mercadotecnia, Negocios Internacionales, Turismo; Bloque 6 (Ciencias de la Salud Humana): Bioquímica y Farmacia, Enfermería, Fonoaudiología, Medicina, Nutrición y Dietética, Obstetricia, Odontología, Psicología, Terapia Ocupacional, Terapia Respiratoria\nIndícame el número de un bloque, te doy solo esa lista."
+        ]
+    },
+    "consultar_carrera_especifica": {
+        "descripcion": "Dar información detallada (título, duración, modalidad, sede) de una carrera puntual.",
+        "utterances": [
+            "quiero informacion sobre ",
+            "cuéntame de la carrera de ",
+            "dime sobre la carrera de",
+            "comparteme información sobre la carrea de",
+            "que tal es la carrera de ",
+            "informacion sobre la carrera de",
+            "dime sobre la carrera de",
+            "cuanto dura la carrera de",
+            "cuantos semestre tiene la carrera de",
+            "que titulo dan en la carrera de"
+        ],
+        "responses": [
+            "La UG ofrece 59 carreras en 17 facultades, en modalidad Presencial, Híbrida o En línea según el programa. Dime el nombre la carrera que te interesa."
+        ]
+    },
+    "consultar_materias_bloque": {
+        "descripcion": "Consultar qué materias evalúa un bloque de conocimiento específico.",
+        "utterances": [
+            "que materias se evaluan en mi bloque",
+            "que bloque me corresponde",
+            "que materias tiene el bloque",
+            "que se evalua en el bloque de",
+            "cuanto vale matematicas en mi bloque",
+            "materias del bloque ",
+            "que porcentaje tiene quimica en el bloque "
+        ],
+        "responses": [
+            "Desglose de materias evaluadas por bloque:\nBloque 1 (Ciencia, Tecnología e Ingeniería): Matemáticas 40% (16 preguntas), Lenguaje y comunicación 20% (8 preguntas), Física 40% (16 preguntas); Bloque 2 (Ciencias de la Bioindustria y Recursos Naturales): Matemáticas 30% (12 preguntas), Lenguaje y comunicación 20% (8 preguntas), Química 50% (20 preguntas); Bloque 3 (Diseño y Creatividad): Matemáticas 20% (8 preguntas), Lenguaje y comunicación 40% (16 preguntas), Expresión visual 40% (16 preguntas); Bloque 4 (Ciencias Sociales, Educación y Cultura): Fundamentos de matemáticas 20% (8 preguntas), Lenguaje y comunicación 40% (16 preguntas), Sociedad y cultura 40% (16 preguntas); Bloque 5 (Negocios y Economía Global): Matemáticas 50% (20 preguntas), Lenguaje y comunicación 20% (8 preguntas), Emprendimiento y gestión 30% (12 preguntas); Bloque 6 (Ciencias de la Salud Humana): Matemáticas 20% (8 preguntas), Química 40% (16 preguntas), Biología 40% (16 preguntas)\nIndícame el número de tu bloque (1 al 6) para darte solo ese detalle."
+        ]
+    },
+    "consultar_total_carreras": {
+        "descripcion": "Indicar el número total de carreras que ofrece la UG.",
+        "utterances": [
+            "cuantas carreras hay",
+            "cuantas carreras ofrece la ug",
+            "cuantas carreras tiene la universidad",
+            "cuantas carreras existen en la ug",
+            "numero total de carreras",
+            "cuantas carreras se pueden estudiar"
+        ],
+        "responses": [
+            "La Universidad de Guayaquil ofrece un total de 59 carreras, distribuidas en 17 facultades y agrupadas en 6 bloques de conocimiento."
+        ]
+    },
+    "consultar_total_facultades": {
+        "descripcion": "Indicar el número total de facultades de la UG y listarlas.",
+        "utterances": [
+            "cuantas facultades hay",
+            "cuantas facultades tiene la ug",
+            "que facultades existen",
+            "dime las facultades de la universidad",
+            "cuantas facultades ofrece la universidad"
+        ],
+        "responses": [
+            "La UG cuenta con 17 facultades: Facultad de... Arquitectura y Urbanismo, Facultad de Ciencias Matemáticas y Físicas, Facultad de Ingeniería Industrial, Facultad Ciencias Agrarias, Facultad Ciencias Naturales, Facultad de Ingeniería Química, Facultad de Ciencias Químicas, Facultad de Jurisprudencia, Ciencias Sociales y Políticas, Facultad de Ciencias Administrativas, Facultad de Medicina Veterinaria y Zootecnia, Facultad de Ciencias de la Comunicación Social, Facultad de Filosofía, Letras y Ciencias de la Educación, Facultad de Ciencias de la Actividad Física, Facultad de Ciencias Psicológicas, Facultad de Economía, Facultad de Ciencias Médicas, Facultad Piloto de Odontología."
+        ]
+    },
+    "consultar_carreras_facultad": {
+        "descripcion": "Consultar qué carreras pertenecen a una facultad específica.",
+        "utterances": [
+            "que carreras hay en la facultad de ",
+            "carreras de la facultad de ",
+            "que carreras pertenecen a la facultad de",
+            "carreras que ofrece la facultad de",
+            "que se puede estudiar en la facultad de",
+            "que carreras tiene tal facultad"
+        ],
+        "responses": [
+            "Dime el nombre de la facultad y te doy información sobre las carreras que se ofrecen."
+        ]
+    },
+    "consultar_asignacion_cupos": {
+        "descripcion": "Explicar cómo se asignan los cupos.",
+        "utterances": [
+            "como se asignan los cupos",
+            "como funciona la asignacion de cupos",
+            "que pasa si hay empate en el cupo",
+            "criterios para asignar cupo",
+            "como eligen quien entra a la carrera"
+        ],
+        "responses": [
+            "El cupo se asigna según el orden de mérito (50% examen de admisión + 50% antecedentes académicos, más acciones afirmativas si aplican) y la libre elección de carrera del postulante. En caso de empate para el último cupo, se considera la nota del registro académico, las políticas de acción afirmativa y el tiempo empleado en la evaluación del campo específico de conocimiento."
+        ]
+    },
+    "consultar_cuotas_admision": {
+        "descripcion": "Consultar los grupos y porcentajes de cuotas de admisión (acción afirmativa).",
+        "utterances": [
+            "hay cupos para grupos vulnerables",
+            "que es la accion afirmativa",
+            "cuanto cupo hay para merito academico",
+            "hay cuotas para bachilleres",
+            "como se reparten los cupos por grupo"
+        ],
+        "responses": [
+            "La oferta de cupos por carrera se distribuye en grupos de acción afirmativa: Grupos históricamente excluidos o discriminados: 5%; Mayor vulnerabilidad socioeconómica: 10%; Mérito académico (cuadro de honor): 20%; Bachilleres del último régimen escolar — pueblos y nacionalidades: 10%; Bachilleres del último régimen escolar — resto de la convocatoria: 35%; Población general: 20%."
+        ]
+    },
+    "consultar_aceptacion_cupo": {
+        "descripcion": "Explicar el proceso de aceptación de cupo y su carácter irrevocable.",
+        "utterances": [
+            "como acepto mi cupo",
+            "puedo cambiar de carrera despues de aceptar el cupo",
+            "puedo anular mi cupo",
+            "que pasa si acepto el cupo",
+            "es obligatorio aceptar el cupo"
+        ],
+        "responses": [
+            "La aceptación de cupo es un acto libre y voluntario que realizas en la plataforma del MINEDUC. Importante: una vez aceptado, el cupo NO puede modificarse ni anularse, y debe utilizarse únicamente en el período correspondiente. Existen tres etapas de postulación y aceptación (primera, segunda y tercera), todas voluntarias."
+        ]
+    },
+    "consultar_por_que_estudiar_ug": {
+        "descripcion": "Responder por qué estudiar en la Universidad de Guayaquil.",
+        "utterances": [
+            "por que estudiar en la ug",
+            "que ventajas tiene la universidad de guayaquil",
+            "dame razones para elegir la ug",
+            "por que elegir esta universidad"
+        ],
+        "responses": [
+            "Algunas razones para estudiar en la UG: (1) Amplia oferta académica: gran variedad de programas que se adaptan a los diferentes intereses y perfiles, potenciando la vocación profesional. Infraestructura segura: instalaciones con espacios de estudio, laboratorios y áreas comunes para el desarrollo del estudiante. Testimonio de Romina León, estudiante: «Estoy orgullosa de la UG, porque la educación de calidad y la infraestructura académica convierten el esfuerzo en oportunidades reales»."
+        ]
+    },
+    "consultar_fuente_oficial": {
+        "descripcion": "Indicar los canales oficiales de información y prevenir cuentas falsas.",
+        "utterances": [
+            "donde consigo informacion oficial",
+            "cual es la pagina oficial de admisiones",
+            "hay redes sociales oficiales",
+            "como evito cuentas falsas",
+            "donde sigo las redes oficiales"
+        ],
+        "responses": [
+            "Toda la información oficial se publica en los canales institucionales de la UG: https://linktr.ee/admisionug. Toda la información oficial del proceso de admisión se publica únicamente en los canales institucionales de la UG. No se debe difundir ni seguir cuentas no oficiales."
+        ]
+    },
+    "explicar_curso_nivelacion": {
+        "descripcion": "Explicar qué es el Curso de Nivelación de Carrera.",
+        "utterances": [
+            "que es el curso de nivelacion",
+            "para que sirve la nivelacion",
+            "que es la nivelacion de carrera",
+            "explícame el curso de nivelación",
+            "en que consiste la nivelacion",
+            "es obligatorio el curso de nivelacion"
+        ],
+        "responses": [
+            "El Curso de Nivelación de Carrera de la Universidad de Guayaquil es un espacio académico orientado a fortalecer los conocimientos, destrezas y habilidades fundamentales que requieren los postulantes para iniciar con éxito su formación universitaria. A través de este proceso, la institución promueve una preparación previa sólida que favorece el desempeño académico, la permanencia estudiantil y el aprovechamiento responsable de la educación superior."
+        ]
+    },
+    "consultar_requisitos_matricula_nivelacion": {
+        "descripcion": "Consultar requisitos y documentos para matricularse en la nivelación.",
+        "utterances": [
+            "que documentos necesito para matricularme en nivelacion",
+            "como me matriculo en el curso de nivelacion",
+            "que necesito para matricularme",
+            "documentos para la matricula",
+            "como subo mis documentos al siug",
+            "que papeles pide la matricula de nivelacion"
+        ],
+        "responses": [
+            "Los postulantes con cupo asignado pueden registrarse y matricularse de manera online, a través del Sistema Integrado de la Universidad de Guayaquil (SIUG), de acuerdo con el período académico, la carrera y la jornada del cupo obtenido en el proceso de Admisión. Los documentos a adjuntar (escaneados a color) son: 1) Foto tamaño carné a color (JPG entre 200 y 400 KB, fondo blanco, no pixelada).; 2) Cédula de ciudadanía o pasaporte.; 3) Certificado de votación, de ser aplicable.; 4) Título de bachiller o su equivalente legal (para ciudadanos extranjeros, título reconocido o equiparado por el Ministerio de Educación).; 5) Certificado de registro del título de bachiller, descargado de la página web del Ministerio de Educación.; 6) Carné del CONADIS, si aplica.. Los documentos deben escanearse a color, de forma clara y legible, en formato PDF y con un peso máximo de 350 KB. Además debes: (1) Completar la encuesta socioeconómica y de estilos de aprendizaje. (2) Seleccionar el paralelo en el que se matriculará."
+        ]
+    },
+    "consultar_evaluacion_aprobacion_nivelacion": {
+        "descripcion": "Explicar cómo se evalúa y qué se requiere para aprobar la nivelación.",
+        "utterances": [
+            "como se evalua el curso de nivelacion",
+            "que necesito para aprobar la nivelacion",
+            "cual es el promedio minimo para aprobar",
+            "cuanta asistencia necesito",
+            "como me califican en nivelacion",
+            "que pasa si repruebo una materia de nivelacion"
+        ],
+        "responses": [
+            "La evaluación se compone de: Gestión formativa, práctica y autónoma de los aprendizajes (60%); Acreditación y validación de los aprendizajes (40%). Para aprobar el Curso de Nivelación, los estudiantes deben cursar la totalidad de las asignaturas establecidas, cumplir con un mínimo del 70% de asistencia y alcanzar un promedio mínimo de 7/10 en cada una de ellas."
+        ]
+    },
+    "consultar_plataformas_virtuales_nivelacion": {
+        "descripcion": "Informar sobre el Campus Virtual (Moodle) y el Aula Virtual (Zoom).",
+        "utterances": [
+            "donde son las clases de nivelacion",
+            "que es el campus virtual moodle",
+            "como entro a zoom",
+            "donde veo las clases grabadas",
+            "cual es mi usuario para el campus virtual",
+            "donde reviso mis materiales de nivelacion"
+        ],
+        "responses": [
+            "Campus Virtual – Moodle: Entorno académico virtual donde los estudiantes desarrollan sus actividades formativas y acceden a materiales educativos. Enlace: https://campusnivelacion.ug.edu.ec/login/index.php. Se utiliza el número de cédula como usuario y como contraseña. El acceso está habilitado a partir del inicio de clases. Aula Virtual – Zoom: Las clases sincrónicas se desarrollan mediante la plataforma Zoom. Ruta de acceso en el SIUG: Académico → Estudiante → Horarios → Clases Virtuales. Las sesiones quedan disponibles en el Campus Virtual Moodle para revisarlas cuando se necesite."
+        ]
+    },
+    "consultar_fechas_nivelacion": {
+        "descripcion": "Consultar fechas de inicio de clases y de retiro del curso de nivelación.",
+        "utterances": [
+            "cuando empiezan las clases de nivelacion",
+            "hasta cuando puedo retirarme del curso de nivelacion",
+            "cuando es el retiro definitivo",
+            "fecha limite para retirar por caso fortuito",
+            "cuando inician las clases",
+            "cuando puedo pedir el retiro por fuerza mayor"
+        ],
+        "responses": [
+            "Las clases del Curso de Nivelación inician el 2 de junio de 2026. El retiro definitivo se puede solicitar del 18 de mayo de 2026 al 7 de agosto de 2026. Las solicitudes de retiro por caso fortuito o fuerza mayor se registran del 1 de junio de 2026 al 7 de agosto de 2026, y deben quedar aprobadas a más tardar el 25 de agosto de 2026."
+        ]
+    },
+    "explicar_creacion_cuenta_siug": {
+        "descripcion": "Explicar la creación/uso de cuenta en el SIUG para la matrícula de nivelación.",
+        "utterances": [
+            "como creo mi cuenta en el siug",
+            "necesito crear cuenta para la nivelacion",
+            "ya tengo cuenta del proceso anterior",
+            "que hago si ya tenia cuenta en el siug",
+            "donde me registro para la matricula de nivelacion",
+            "necesito una cuenta nueva para matricularme"
+        ],
+        "responses": [
+            "Los postulantes que ya tengan una cuenta en el SIUG de procesos anteriores deben ingresar con esa misma cuenta. El calendario académico incluye todas las fechas del proceso, desde la creación de cuentas hasta la matrícula."
+        ]
+    }
+}
