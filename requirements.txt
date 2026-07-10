@@ -1,0 +1,7 @@
+spacy>=3.7.0
+gradio>=4.0.0
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
