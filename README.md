@@ -181,11 +181,17 @@ PLN-Proyecto-parcial-2-GRUPO-PI-G2/
 
 ## Tecnologías utilizadas
 
-**spaCy** (lematización en español) · **NumPy** (TF-IDF y álgebra vectorial) · **scikit-learn** (métricas de evaluación) · **pandas / seaborn / matplotlib** (reportes y matriz de confusión) · **Gradio** (interfaz web) · **Git + GitHub** (backend de datos) · **Google Colab** (entorno de ejecución).
+·**spaCy** (lematización en español) 
+· **NumPy** (TF-IDF y álgebra vectorial) 
+· **scikit-learn** (métricas de evaluación) 
+· **pandas / seaborn / matplotlib** (reportes y matriz de confusión) 
+· **Gradio** (interfaz web) · **Git + GitHub** (backend de datos) 
+· **Google Colab** (entorno de ejecución).
 
 ---
 
 ## Fuente oficial
 
 Toda la información se basa en los canales institucionales de la Universidad de Guayaquil.
+
 Este proyecto es de carácter **académico**.
